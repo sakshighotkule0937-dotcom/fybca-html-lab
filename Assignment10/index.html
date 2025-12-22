@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:gold">
+    <h1 align="center"><i>Registration form</i></h1>
+
+    <form action="submitRegistration.php" method="post">
+
+<table border="1">
+    <caption>Registration Table</caption>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="tName" placeholder="Enter your full name"></td>
+    </tr>
+     <td>Address</td>
+        <td><label for="tAddress">
+            <textarea rows="5" cols="50" name="tAddress"></textarea>
+        </label></td>
+    </tr> 
+    <tr>
+        <td>Gender</td>
+        <td>
+            <label for="101"><input type="radio" name="rGender" value="Male" id="101">Male</label>
+            <label for="102"><input type="radio" name="rGender" value="Female" id="102">Female</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Your subjects</td>
+        <td>
+
+            <input type="checkbox" name="chkSubjects"> English
+            <input type="checkbox" name="chkSubjects"> Web Technology
+            <input type="checkbox" name="chkSubjects"> IKS
+            <input type="checkbox" name="chkSubjects"> Electronics
+            <input type="checkbox" name="chkSubjects"> Maths
+        </td>
+    </tr>
+        <td>Country</td>
+        <td><label for="tcountry">
+
+            <select autocomplete="country" id="country" name="country"></select>
+    
+            <option value="AF">Afghanistan</option>
+            <option value="AF">Venezuela</option>
+            <option value="AF">Algeria</option>
+            <option value="AF">Western Sahara</option>
+            
+    
+</table>
+    </form>
+    
+</body>
+</html>
