@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+ <body>
+    <h1>Registration Form</h1>
+    <form action="/submitform.php" method= cd"post">
+        <label for="tUserName">
+            UserName:
+            <input type="text" name="tUserName" placeholder="Enter youe username">
+        </label>
+        <br><br>
+        <label for="tPassword">
+            Password:
+            <input type="password" name="tPassword">
+        </label>
+        <br><br>
+        <label for="tEmail" class="clslabelemail">
+            Email:
+            <input type="email" name="tEmail">
+        </label>
+        <br><br>
+        <label for="tAge">
+            Age:
+            <input type="number" name="tAge" value="18">
+        </label>
+        <br><br>
+        <label for="tDate of Birth">
+            Date of Birth:
+            <input type="date" name="tDate of Birth">
+        </label>
+        <br><br>
+         <label for="tProfile Picture">
+            Profile Picture:
+            <input type="file" name="tProfile Picture">
+        </label>
+        <br><br>
+         <label for="tGender">
+            Gender:
+            <input type="radio" name="tGender">Male
+            <input type="radio" name="tGender">Female
+        </label>
+        <br><br>
+         <label for="tInterests">
+           Interests:
+            <input type="checkbox" name="tDate of Birth">Coding
+            <input type="checkbox" name="tDate of Birth">Music
+        </label>
+        <br><br>
+         <label for="tCountry">
+            Country:
+            <select>
+                 <option>India</option>
+                  <option>USA</option>
+                   <option>UK</option>
+                    <option>Japan</option>
+            </select>
+            <br><br>
+           </label>
+        <br><br>
+        <label for="tBio">
+            Bio:
+            <textarea rows="5" cols="50" placeholder="Tell us about yourself"></textarea>
+        </label>
+        <br><br>
+        <label for="tFavorite Color">
+          Favorite Color:
+          <input type="color">
+        </label>
+        <br><br>
+        <label for="tExperience (Years)">
+            Experience (Years):
+            <input type="range" name="tExperience (Years)" min="0">
+        </label>
+        <br><br>
+        <input type="Submit">
+        <input type="Reset">
+        </form>
+
+
+</body>
+</html>
